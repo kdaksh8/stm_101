@@ -94,6 +94,7 @@ int main(void)
   MX_USB_HOST_Init();
   MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
+
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3);
